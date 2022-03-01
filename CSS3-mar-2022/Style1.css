@@ -1,0 +1,11 @@
+p{
+    color: orange;
+}
+
+#C1{
+    color: black;
+}
+p span{
+    color: black;
+    font-weight: bold;
+}
