@@ -1,0 +1,31 @@
+.a{
+    text-transform: capitalize;
+}
+img{
+    height: 250px;
+    width: 250px;
+}
+p{
+    font-weight: bold;
+}
+#div{
+    background-color: red;
+} 
+.b{
+ position: absolute;
+ padding-bottom: px;
+  left: 18px;
+  text-align:center ;
+  color:red ;
+}
+
+li{
+    font-weight: bold;
+}
+.c{
+    text-transform: uppercase;
+}
+h3{
+    font-weight: bolder;
+
+}
