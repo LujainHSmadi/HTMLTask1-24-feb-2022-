@@ -1,0 +1,24 @@
+.a1{
+   
+    border: 20px solid;
+    border-color: green;
+    background-color: green;
+   
+}
+.a2{
+   
+    border: 20px solid;
+    border-color: yellow;
+    margin-bottom: 0%;
+}
+.a3{
+    padding: 45%;
+    border: 20px solid;
+    border-color: yellow;
+    color: aliceblue;
+    font-size: 50px;
+    text-align: left;
+    text-align: center;
+    font-weight: bold;
+    
+}
