@@ -1,0 +1,49 @@
+.div1 {
+    border: 1px solid;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    margin-top: 5px;
+    background-color: aliceblue;
+    width: 25%;
+}
+
+* {
+    background-color: rgb(240, 240, 202);
+}
+
+h2{
+    background-color: aliceblue;
+}
+.q{
+    background-color: gold;
+}
+.i{
+    background-color: lightcoral;
+}
+.r{
+    color: red;
+    background-color: aliceblue;
+    margin-top: 5px;
+   
+   
+   
+    padding-bottom: 15px;
+    border-style: dotted;
+
+}
+.dot{
+    border-style: dotted;
+    color: red;
+    margin-top: 5px;
+    width: 25%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+}
+.non{
+    border:none
+}
+div{
+    background-color: aliceblue;
+}
