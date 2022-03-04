@@ -9,7 +9,7 @@
 }
 
 * {
-    background-color: rgb(240, 240, 202);
+    background-color: rgb(255, 200, 248);
 }
 
 h2{
@@ -22,19 +22,20 @@ h2{
     background-color: lightcoral;
 }
 .r{
-    color: red;
+    border-color: rgb(255, 58, 58);
     background-color: aliceblue;
     margin-top: 5px;
+    
    
    
    
     padding-bottom: 15px;
-    border-style: dotted;
+    border-style: dashed;
 
 }
 .dot{
-    border-style: dotted;
-    color: red;
+    border-style: dashed;
+    
     margin-top: 5px;
     width: 25%;
     padding-left: 5px;
@@ -44,4 +45,8 @@ h2{
 
 div{
     background-color: aliceblue;
+}
+
+.pr{
+    color: blueviolet;
 }
