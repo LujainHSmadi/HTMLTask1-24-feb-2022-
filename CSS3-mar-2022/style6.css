@@ -1,0 +1,19 @@
+div{
+    border: 2px solid;
+    height:100px;
+    width:100px;
+    background-color: aqua;
+    display: inline-block;
+    margin-left: 12px;
+}
+.a1{
+    background-color: aqua;
+    margin-bottom: 50px;
+    
+    
+}
+
+.a2{
+    background-color: palevioletred;
+    
+}
