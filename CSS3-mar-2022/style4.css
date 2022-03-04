@@ -1,4 +1,10 @@
-img{
+.a{
     position: fixed;
     margin-left: 90%;
+    width: 150px;
+    height: 500px;
+    background: url(images.jpg);
+    
+
+    
 }
