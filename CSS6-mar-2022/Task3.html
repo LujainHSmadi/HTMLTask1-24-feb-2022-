@@ -1,20 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task3</title>
-    <
+    <style>
+        @keyframes sign1 {
+            from {
+                background-color: gray;
+            }
+
+            to {background-color: red;}
+        }
+          @keyframes sign2 {
+            from {
+                background-color: gray;
+            }
+
+            to {background-color: orange;}
+        }
+   @keyframes sign3 {
+            from {
+                background-color: gray;
+            }
+
+            to {background-color: green;}
+        }
+        .parent {
+            height: 130px;
+            width: 50px;
+            border: 1 solid;
+            background-color: black;
+            border-radius: 10px;
+
+        }
+
+        .a {
+            background-color: gray;
+            border: 1 solid;
+            height: 40px;
+            width: 40px;
+            border-radius: 100px;
+            margin-left: 5px;
+            animation-name: sign1;
+            animation-duration: 3s;
+            animation-delay: 2s;
+            
+
+        }
+
+        .b {
+            background-color: gray;
+            border: 1 solid;
+            height: 40px;
+            width: 40px;
+            border-radius: 100px;
+            margin-left: 5px;
+            animation-name: sign2;
+            animation-duration: 3s;
+            animation-delay: 5s;
+        }
+
+        .c {
+            background-color: gray;
+            border: 1 solid;
+            height: 40px;
+            width: 40px;
+            border-radius: 100px;
+            margin-left: 5px;
+             animation-name: sign3;
+             animation-duration: 5s;
+             animation-delay: 8s;
+        }
+    </style>
 </head>
 
 
 
 <body>
-    <div>
+    <div class="parent">
         <div class="a"></div>
         <div class="b"></div>
         <div class="c"></div>
     </div>
 </body>
+
 </html>
