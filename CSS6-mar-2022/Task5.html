@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task5</title>
+    <style>
+        @keyframes square {
+            0% {
+                position: relative;
+                left: 0px;
+                top: 0px;
+                background-image: linear-gradient(aqua, teal);
+            }
+
+            25% {
+                position: relative;
+                left: 400px;
+                top: 0px;
+                background-image: linear-gradient(aqua, rgb(226, 84, 207));
+            }
+
+            50% {
+                position: relative;
+                left: 400px;
+                top: 400px;
+                background-image: linear-gradient(rgb(199, 26, 214), rgb(226, 84, 207));
+            }
+
+            75% {
+                position: relative;
+                left: 0px;
+                top: 400px;
+                background-image: linear-gradient(rgb(35, 154, 170), rgb(226, 84, 207));
+
+            }
+
+            100% {
+                position: relative;
+                left: 0px;
+                top: 0px;
+                background-image: linear-gradient(aqua, rgb(226, 84, 207));
+
+            }
+
+        }
+
+        div {
+            border: 1px solid;
+            width: 100px;
+            height: 100px;
+            background-color: teal;
+            border-radius: 6px;
+            animation-name: square;
+            animation-duration: 10s;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>
