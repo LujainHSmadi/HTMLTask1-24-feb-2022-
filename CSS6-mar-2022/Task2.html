@@ -7,22 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task3</title>
     <style>
+        @keyframes kf{
+            0%, 100% {
+                transform: scale(0.0);
+                -webkit-transform: scale(0.0);
+            }
+            50% {
+                transform: scale(1.0);
+                -webkit-transform: scale(1.0);
+               
+            }
+        }
         div {
             border: 1px solid;
-            background-color: cornflowerblue;
+            background-color: rgb(16, 255, 255);
             height: 50px;
             width: 50px;
             border-radius: 100px;
-            transition: width 2s, height 2s;
+            animation: kf 2s infinite ease-in-out;
+            animation-delay: 1s;
             
         }
 
-        div:hover {
-
-            height: 150px;
-            width: 150px;
-
-        }
+       
     </style>
 </head>
 
