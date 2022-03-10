@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        /* short hand of 
+        flex direction and flex-wrp is
+        flex-flow:[dir][wrap] */
+        * {
+            box-sizing: border-box;
+        }
+
+        .flex {
+
+            display: flex;
+            background-color: rgb(48, 25, 25);
+            width: calc(100%/3);
+            padding: 20px;
+            margin: 20px auto;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+            justify-content:space-evenly;
+        }
+
+        .flex2 {
+            background-color: #eee;
+            width: 600px;
+            padding: 20px;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .flex div {
+            background-color: red;
+            color: aliceblue;
+            width: 25%;
+            text-align: center;
+            padding: 20px;
+
+        }
+
+        .flex2 div {
+            background-color: #f00;
+            color: white;
+            width: 25%;
+            text-align: center;
+            padding: 20px;
+            ;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex">
+        <div>one</div>
+        <div>two </div>
+        <div>three</div>
+        
+    </div>
+
+    <div class="flex2">
+        <div>one</div>
+        <div>two </div>
+        <div>three</div>
+        <div>4</div>
+        <div>5</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+</body>
+
+</html>
