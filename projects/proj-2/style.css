@@ -20,6 +20,17 @@ section{
     padding: 100px 200px;
 }
 
+#about{
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.info p,ul{
+    font-size: medium;
+    font-weight: 600;
+}
+
 .main{
     width: 100%;
     min-height: 100vh;
@@ -35,6 +46,10 @@ section{
     color: #fff;
     font-size: 1.4em;
     font-weight: 500;
+}
+.main h2:hover{
+    font-style: italic;
+    
 }
 .main h2 span{
     display:inline-block;
@@ -211,34 +226,30 @@ font-size: 4.5em;
 .footer-title span{
     color:rgb(43, 144, 226) ;
 }
+.footer .social-icons a{
+    text-decoration: none;
+}
 
-/* 
-@media (max-width:1023px) {
-    header{
-        padding: 12px 20px;
-    }
-   
-    .title{
-        font-size: 1.8em;
-    }
-    section{
-        padding:80px 20px ;
-    }
-     .main h2{
-        font-size: 1em;
-        ;
 
-    }
-    .main h3{
-        font-size: 1.6em;
-    }
-    .content{
-        flex-direction: column;
-        align-items: center; 
-    } 
 
-    
-} */
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width:641px) and (min-width:411px) {
     body{
